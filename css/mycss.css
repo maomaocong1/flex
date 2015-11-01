@@ -1,0 +1,303 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.color1{
+    background: lightcoral;
+}
+
+.color2{
+    background: paleturquoise;
+}
+
+.color3{
+    background: deeppink;
+}
+.container{
+    display: box;
+    -webkit-display: box;
+    -moz-display: box;
+    -ms-display: box;
+    -o-display: box;
+    box-orient:horizontal;
+    -webkit-box-orient:horizontal;
+    -moz-box-orient:horizontal;
+    -o-box-orient:horizontal;
+    -ms-box-orient:horizontal;
+    display: flex;
+    -webkit-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    -o-display: flex;
+    width: 1000px;
+    height: 110px;
+}
+.box1{
+    align-items:stretch;
+    -webkit-align-items:stretch;
+    -moz-align-items:stretch;
+    -ms-align-items:stretch;
+    -o-align-items:stretch;
+    flex: 1;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    -o-flex: 1;
+
+}
+.box2{
+    align-items:stretch;
+    -webkit-align-items:stretch;
+    -moz-align-items:stretch;
+    -ms-align-items:stretch;
+    -o-align-items:stretch;
+    flex: 1;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    -o-flex: 1;
+
+}
+.box3{
+    align-items:stretch;
+    -webkit-align-items:stretch;
+    -moz-align-items:stretch;
+    -ms-align-items:stretch;
+    -o-align-items:stretch;
+    flex: 1;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    -o-flex: 1;
+}
+
+.box1_1{
+    align-items:stretch;
+    -webkit-align-items:stretch;
+    -moz-align-items:stretch;
+    -ms-align-items:stretch;
+    -o-align-items:stretch;
+    flex: 1;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    -o-flex: 1;
+}
+.box2_1{
+    align-items:stretch;
+    -webkit-align-items:stretch;
+    -moz-align-items:stretch;
+    -ms-align-items:stretch;
+    -o-align-items:stretch;
+    flex: 2;
+    -webkit-flex: 2;
+    -moz-flex: 2;
+    -ms-flex: 2;
+    -o-flex: 2;
+}
+.box3_1{
+    align-items:stretch;
+    -webkit-align-items:stretch;
+    -moz-align-items:stretch;
+    -ms-align-items:stretch;
+    -o-align-items:stretch;
+    flex: 1;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    -o-flex: 1;
+}
+
+.box1_2{
+    align-items:stretch;
+    -webkit-align-items:stretch;
+    -moz-align-items:stretch;
+    -ms-align-items:stretch;
+    -o-align-items:stretch;
+    flex: 1;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    -o-flex: 1;
+}
+.box2_2{
+    align-items:stretch;
+    -webkit-align-items:stretch;
+    -moz-align-items:stretch;
+    -ms-align-items:stretch;
+    -o-align-items:stretch;
+    flex: 2;
+    -webkit-flex: 2;
+    -moz-flex: 2;
+    -ms-flex: 2;
+    -o-flex: 2;
+    -webkit-order:-1;
+    -moz-order:-1;
+    -ms-order:-1;
+    -o-order:-1;
+    order:-1;
+}
+.box3_2{
+    align-items:stretch;
+    -webkit-align-items:stretch;
+    -moz-align-items:stretch;
+    -ms-align-items:stretch;
+    -o-align-items:stretch;
+    flex: 1;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    -o-flex: 1;
+}
+
+.container_3{
+    display: box;
+    -webkit-display: box;
+    -moz-display: box;
+    -ms-display: box;
+    -o-display: box;
+    box-orient:horizontal;
+    -webkit-box-orient:horizontal;
+    -moz-box-orient:horizontal;
+    -o-box-orient:horizontal;
+    -ms-box-orient:horizontal;
+    display: flex;
+    -webkit-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    -o-display: flex;
+    width: 1000px;
+    height: 150px;
+    border: 1px solid black;
+    -webkit-flex-direction:row-reverse;
+    -moz-flex-direction:row-reverse;
+    -ms-flex-direction:row-reverse;
+    -o-flex-direction:row-reverse;
+    flex-direction:row-reverse;
+
+    -webkit-align-items:flex-end;
+    -moz-align-items:flex-end;
+    -ms-align-items:flex-end;
+    -o-align-items:flex-end;
+    align-items:flex-end;
+}
+
+.box1_3{
+
+
+}
+.box2_3{
+    flex: 1;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    -o-flex: 1;
+
+}
+.box3_3{
+
+
+}
+.containerv{
+    /*display: box;*/
+    /*display:-webkit-box;*/
+    /*display:-moz-box;*/
+    /*display:-o-box;*/
+    /*display:-ms-box;*/
+    /*box-orient:vertical;*/
+    /*-webkit-box-orient:vertical ;*/
+    /*-moz-box-orient:vertical ;*/
+    /*-o-box-orient:vertical ;*/
+    /*-ms-box-orient:vertical ;*/
+    display: flex;
+    -webkit-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    -o-display: flex;
+    flex-direction:column;
+    -webkit-flex-direction:column;
+    -moz-flex-direction:column;
+    -o-flex-direction:column;
+    -ms-flex-direction:column;
+    width: 100px;
+    height: 610px;
+}
+
+.box1_4{
+    display: flex;
+    -webkit-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    -o-display: flex;
+    flex: 1;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    -o-flex: 1;
+    align-items:center;
+    -webkit-align-items:center;
+    -moz-align-items:center;
+    -ms-align-items:center;
+    -o-align-items:center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+
+
+
+}
+.box2_4{
+    display: flex;
+    -webkit-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    -o-display: flex;
+    flex: 1;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    -o-flex: 1;
+    align-items:center;
+    -webkit-align-items:center;
+    -moz-align-items:center;
+    -ms-align-items:center;
+    -o-align-items:center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+
+
+}
+.box3_4{
+    display: flex;
+    -webkit-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    -o-display: flex;
+    flex: 1;
+    -webkit-flex: 2;
+    -moz-flex: 2;
+    -ms-flex: 2;
+    -o-flex: 2;
+    align-items:center;
+    -webkit-align-items:center;
+    -moz-align-items:center;
+    -ms-align-items:center;
+    -o-align-items:center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+
+}

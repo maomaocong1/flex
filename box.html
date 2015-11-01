@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="css/mycss.css" rel="stylesheet" type="text/css">
+    <title>怪异盒子模型</title>
+</head>
+<body>
+<div class="container_0 container">
+    <div class="box1 box color1">
+        1
+    </div>
+    <div class="box2 box color2">
+        2
+    </div>
+    <div class="box3 box color3">
+        3
+    </div>
+</div>
+<div class="container_1 container">
+    <div class="box1_1 box color1">
+        1
+    </div>
+    <div class="box2_1 box color2">
+        2:flex=2
+    </div>
+    <div class="box3_1 box color3">
+        3
+    </div>
+</div>
+<div class="container_2 container">
+    <div class="box1_2 box color1" >
+        1
+    </div>
+    <div class="box2_2 box color2">
+        2:flex=2 order=-1
+    </div>
+    <div class="box3_2 box color3">
+        3
+    </div>
+</div>
+<div class="container_3">
+    <div class="box1_3 box color1">
+        1非弹性
+    </div>
+    <div class="box2_3 box color2">
+        2 	flex-direction:column-reverse;flex-end
+    </div>
+    <div class="box3_3 box color3">
+        3非弹性
+    </div>
+</div>
+<div class="container_4 containerv">
+    <div class="box1_4 box color1">
+        1
+    </div>
+    <div class="box2_4 box color2">
+        2压缩后文字居中
+    </div>
+    <div class="box3_4 box color3">
+        3
+    </div>
+</div>
+
+</div>
+</body>
+</html>
